@@ -28,5 +28,5 @@ Faster fastball velocity correlates with lower expected ERA, suggesting velocity
 
 ## 🧾 Author
 **Ryan Bender**  
-Data Science Major | Baseball Research Enthusiast  
+Mathematics Major | Baseball Research Enthusiast  
 [LinkedIn](https://www.linkedin.com) (optional) | [Email](ryanbender2002@gmail.com)
