@@ -1,5 +1,3 @@
-# MLB-Velocity-xERA-Regression
-Regression analysis exploring the relationship between MLB fastball and off-speed velocity, pitch location, and expected ERA (xERA).
 # Regression Analysis: MLB Pitch Velocity and xERA
 
 This project investigates how a Major League Baseball pitcher’s **fastball velocity (FBv)** and **pitch location (Location+)** relate to their **expected ERA (xERA)** using multiple linear regression.
