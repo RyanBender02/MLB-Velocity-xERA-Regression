@@ -3,9 +3,9 @@
 This project investigates how a Major League Baseball pitcher’s **fastball velocity (FBv)** and **pitch location (Location+)** relate to their **expected ERA (xERA)** using multiple linear regression.
 
 ## Objectives
-- Explore whether faster fastballs are associated with better pitching performance.
-- Test how pitch location influences expected run prevention.
-- Identify and remove high-influence points to improve model accuracy.
+- Examine popular pitching statistics to find common trends.
+- Exploring if there is a relationship between faster velocity and performance.
+- Test how pitch location influences a pitcher's performance.
 
 ## Methods
 - Used **Ordinary Least Squares (OLS)** regression via `statsmodels`
@@ -21,7 +21,7 @@ This project investigates how a Major League Baseball pitcher’s **fastball vel
 | Significant Predictor | Location (p = 0.050) |
 
 ## Interpretation
-Faster fastball velocity correlates with lower expected ERA, suggesting velocity plays a measurable role in pitcher effectiveness. Pitch location contributes positively but not as significantly.
+There was multicollinearity and high p-values for the offspeed pitches in the regression model containing fastballs, cutters, curveballs, and change-ups. After adjusting the regression model, the model containing only fastball velocity and expected ERA showed no multicollinearity, and fastball velocity was a significant predictor. Fastball velocity can contribute roughly 30 percent of the variation in expected ERA, which can be explained by a linear association between fastball velocity and expected earned runs.
 
 ## Tools
 - Python, pandas, numpy, statsmodels, scikit-learn, matplotlib
