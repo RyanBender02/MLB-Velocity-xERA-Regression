@@ -21,7 +21,7 @@ This project investigates how a Major League Baseball pitcher’s **fastball vel
 | Significant Predictor | Location (p = 0.050) |
 
 ## Interpretation
-There was multicollinearity and high p-values for the offspeed pitches in the regression model containing fastballs, cutters, curveballs, and change-ups. After adjusting the regression model, the model containing only fastball velocity and expected ERA showed no multicollinearity, and fastball velocity was a significant predictor. Fastball velocity can contribute roughly 24.4 percent of the variation in expected ERA, which can be explained by a linear association between fastball velocity and expected earned runs.
+There was multicollinearity and high p-values for the offspeed pitches in the regression model containing fastballs, cutters, curveballs, and change-ups. After adjusting the regression model, the model containing only fastball velocity and expected ERA showed no multicollinearity, and fastball velocity was a significant predictor. Fastball velocity can contribute roughly 24.4 percent of the variation in expected ERA, which can be explained by a linear association between fastball velocity and expected ERA. The model containing fastball velocity and location can roughly describe 30 percent of the variation in expected ERA.
 
 ## Tools
 - Python, pandas, numpy, statsmodels, scikit-learn, matplotlib
