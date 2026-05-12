@@ -29,4 +29,4 @@ There was multicollinearity and high p-values for the offspeed pitches in the re
 ## Author
 **Ryan Bender**  
 Mathematics Major | Baseball Research Enthusiast  
-[LinkedIn](https://www.linkedin.com) (optional) | [Email](ryanbender2002@gmail.com)
+[LinkedIn](https://www.linkedin.com)  | [Email](ryanbender2002@gmail.com)
